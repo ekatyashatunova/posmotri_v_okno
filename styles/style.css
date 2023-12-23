@@ -80,7 +80,7 @@ fieldset {
   width: fit-content;
   gap: 5px;
 }
-/*нужно исправить чтобы корректно было выделение в режиме focus-visible*/
+
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #FFF;
   outline-offset: 2px;
@@ -163,7 +163,7 @@ input[type="checkbox"]:checked+span {
   outline-offset: -2px;
 }
 
-input[type="checkbox"]:focus-visible +span {
+input[type="checkbox"]:focus-visible+span {
   outline:  1px solid #fff;
   outline-offset: 2px;
 }
