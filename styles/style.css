@@ -167,7 +167,7 @@ input[type="checkbox"]:checked+span {
   outline-offset: -2px;
 }
 
-.search-form__label:has(:focus-visible) {
+input[type="checkbox"]:focus-visible +span {
   outline:  1px solid #fff;
   outline-offset: 2px;
 }
