@@ -119,10 +119,6 @@ fieldset {
   appearance: none;
 }
 
-.search-form__textfield:hover {
-  cursor: pointer;
-}
-
 .search-form__textfield:active {
   outline: 1px solid #FFF;
   border: none;
@@ -157,11 +153,6 @@ input[type="checkbox"]:checked+span {
   background-color: #fff;
   outline: 1px solid black;
   outline-offset: -2px;
-}
-
-input[type="checkbox"]:focus-visible+span {
-  outline:  1px solid #fff;
-  outline-offset: 2px;
 }
 
 .visually-hidden {
@@ -213,14 +204,14 @@ button:focus-visible {
   grid-template-rows: 210px 298px;
   gap: 26px;
   max-width: 399px;
-  min-height: 534px;
+ /* min-height: 534px;*/
 }
 
 .content__list {
   position: relative;
   z-index: 1;
   height: 298px;
-  overflow: hidden auto;
+  overflow: auto;
 }
 
 .content__list-item {
