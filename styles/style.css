@@ -48,6 +48,10 @@ ol {
   gap: 30px;
 }
 
+.result {
+  max-width: 711px;
+}
+
 .result__video-container {
   position: relative;
   z-index: 1;
@@ -204,7 +208,6 @@ button:focus-visible {
   grid-template-rows: 210px 298px;
   gap: 26px;
   max-width: 399px;
- /* min-height: 534px;*/
 }
 
 .content__list {
