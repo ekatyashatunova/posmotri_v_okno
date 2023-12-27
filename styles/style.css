@@ -282,7 +282,7 @@ button:focus-visible {
     font-style: normal;
     font-weight: 400;
     line-height: 16.2px;
-    /*max-width: 200px;*/
+    max-width: 200px;
 }
 
 .content__video-card-thumbnail {
