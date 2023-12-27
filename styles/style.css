@@ -204,6 +204,7 @@ button:focus-visible {
     display: grid;
     grid-template-rows: 210px 298px;
     gap: 26px;
+    max-width: 399px;
 }
 
 .content__list {
@@ -281,6 +282,7 @@ button:focus-visible {
     font-style: normal;
     font-weight: 400;
     line-height: 16.2px;
+    /*max-width: 200px;*/
 }
 
 .content__video-card-thumbnail {
@@ -306,8 +308,6 @@ button:focus-visible {
 .content__accent {
     color: #545050;
 }
-
-
 
 
 
